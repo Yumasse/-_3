@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+
+.form1 {
+    display: absolute;
+    z-index: 3;
+    position: relative;
+    min-height: 30px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 700px;
+}
+
+.photo {
+    width: 378px;
+    height: 128px;
+    margin-left: 500px;
+}
+
+.wrapper {
+
+    width: 95%;
+    margin: 0% auto;
+    height: 2000px;
+    position: absolute;
+
+}
+
+.search-wrapper {
+    width: 1170px;
+    margin: 0% auto;
+    height: 200px;
+    position: absolute;
+}
+
+.header-text {
+    color: #333;
+    font-size: 18px;
+    display: absolute;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
+.text {
+    color: #333;
+    font-size: 16px;
+}
+
+.lucky-button {
+    display: absolute;
+    margin-left: 470px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+
+button,
+input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4285f4;
+    display: absolute;
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+
+}
+
+/* Стили для "Мені пощастить" */
+#lucky-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4285f4;
+
+}
+
+
+

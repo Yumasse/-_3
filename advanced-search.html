@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="scripts.js" defer></script>
+    <title>Розширений пошук Google</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="wrapper">
+            <img src="./images/logo.svg" alt="photo" class="photo">
+        
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="search.html">Пошук Google</a></li>
+                        <li><a href="image-search.html">Пошук зображень</a></li>
+                        <li><a href="advanced-search.html">Розширений пошук</a></li>
+                        <li><a href="lucky.html">Мені пощастить</a></li>
+                    </ul>
+                </nav>
+        
+            </header>
+
+<!-- не працює -->
+
+            <div class="search-wrapper"></div>
+                <h1 class="header-text">Розширений пошук Google</h1>
+                <label class="text" for="all-words">Знайти сторінки із... «усіма цими словами»:</label>
+                <input type="text" id="all-words" placeholder="Введіть слова">
+                <label class="text" for="exact-phrase">Знайти сторінки з... «саме цим словом або фразою»:</label>
+                <input type="text" id="exact-phrase" placeholder="Введіть слова або фразу">
+                <label class="text" for="any-words">Знайти сторінки з... «будь-яким із цих слів»:</label>
+                <input type="text" id="any-words" placeholder="Введіть слова">
+                <label class="text" for="none-words">Знайти сторінки з... «жодне з цих слів»:</label>
+                <input type="text" id="none-words" placeholder="Введіть слова">
+
+                <button onclick="performAdvancedSearch()">Розширений пошук</button>
+            </div>
+        </div>
+   
+    </main>
+
+</body>
+
+</html>
